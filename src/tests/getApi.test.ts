@@ -14,7 +14,7 @@ describe("getAPIKey", () => {
       authorization: undefined,
     };
 
-    expect(getAPIKey(headers)).toBeNull();
+    expect(getAPIKey(headers)).NaN("");
   });
  
  
